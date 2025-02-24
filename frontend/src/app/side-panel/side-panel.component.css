@@ -1,0 +1,39 @@
+.side-panel {
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 150px;
+  margin-top: 65px;
+  position: fixed;
+}
+  
+  .menu-section {
+    margin-bottom: 20px;
+  }
+  
+  .menu-section h3 {
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    width: 230px;
+  }
+  
+  .menu-section h3:hover {
+    background-color: #0056b3;
+  }
+  
+  .checkbox-container {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 5px;
+    width: 200px;
+  }
+  
+  .checkbox-container label {
+    display: block;
+    margin-bottom: 5px;
+  }

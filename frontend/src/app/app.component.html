@@ -1,0 +1,9 @@
+<nav>
+  <a routerLink="/signin">Sign In</a>
+  <a routerLink="/signup">Sign Up</a>
+</nav>
+<app-header (searchQueryChange)="onSearchQueryChange($event)"></app-header>
+<div class="layout-container">
+  <app-side-panel (filtersChanged)="onFiltersChange($event)"></app-side-panel>
+  <app-home [searchQuery]="searchQuery" [filters]="filters"></app-home>
+</div>

@@ -1,0 +1,17 @@
+<div class="side-panel">
+  <div *ngFor="let menu of menus" class="menu-section">
+    <h3>{{ menu.title }}</h3>
+    <div class="checkbox-container">
+      <div *ngFor="let item of menu.items">
+        <label>
+          <input
+            type="checkbox"
+            [(ngModel)]="item.checked"
+            (change)="onCheckboxChange()"
+          />
+          {{ item.label }}
+        </label>
+      </div>
+    </div>
+  </div>
+</div>

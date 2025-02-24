@@ -1,0 +1,77 @@
+.layout-container {
+    display: flex;
+    height: 100vh;
+  }
+
+  .layout-container app-side-panel {
+    width: 250px;
+    border-right: 1px solid #ccc;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+  }
+  
+  .layout-container app-home {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+
+  .side-panel {
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 100px;
+  }
+    
+    .menu-section {
+      margin-bottom: 20px;
+    }
+    
+    .menu-section h3 {
+      margin: 0;
+      padding: 10px;
+      cursor: pointer;
+      background-color: #007bff;
+      color: #fff;
+      border-radius: 4px;
+      width: auto;
+    }
+    
+    .menu-section h3:hover {
+      background-color: #0056b3;
+    }
+    
+    .checkbox-container {
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+      border-radius: 4px;
+      margin-top: 5px;
+      width: 250px;
+    }
+    
+    .checkbox-container label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    .main-layout {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    
+    .content {
+      display: flex;
+      flex: 1;
+    }
+    
+    app-side-panel {
+      width: 250px; /* Adjust width as needed */
+      border-right: 1px solid #ddd;
+    }
+    
+    app-home {
+      flex: 1;
+      padding: 20px;
+    }
+    

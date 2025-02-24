@@ -1,0 +1,14 @@
+<header>
+  <div class="logo">
+    <h1>Product Catalog</h1>
+  </div>
+  <div class="search-container">
+    <input
+      type="text"
+      placeholder="Search by name, category, price, or description..."
+      [(ngModel)]="searchQuery"
+    />
+    <button (click)="onSearch()">Search</button>
+  </div>
+</header>
+
